@@ -1,0 +1,31 @@
+/*
+ * File: c:\Projects\LeetCode 30 Day Challenge\.vscode\launch.json
+ * Project: c:\Projects\LeetCode 30 Day Challenge\.vscode
+ * Created Date: Friday, April 3rd 2020, 6:26:05 pm
+ * Author: Geoffrey Nyaga Kinyua ( <geoffrey@mfuko.co.ke> )
+ * -----
+ * Last Modified: Friday April 3rd 2020 6:26:05 pm
+ * Modified By:  Geoffrey Nyaga Kinyua ( <geoffrey@mfuko.co.ke> )
+ * -----
+ * This file should not be copied and/or distributed without the express
+ * permission of MFUKO PAYMENTS SERVICES Ltd.
+ * -----
+ * Copyright (c) 2020 MFUKO PAYMENTS SERVICES Ltd.
+ */
+
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {"name":"Python: Current File","type":"python","request":"launch","program":"${file}","console":"integratedTerminal"},
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
