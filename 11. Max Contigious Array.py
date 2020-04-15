@@ -25,25 +25,25 @@ class Solution(object):
         current_count = 0
 
         results= {}
-        # [0,1,0,1]
 
-        d = {}
+        # d = {}
 
-        maxlen,count = 0, 0
+        # maxlen,count = 0, 0
 
-        for i in range(len(nums)):
-            if nums[i] == 1:
-                count += 1
-            else:
-                count -= 1
+        # for i in range(len(nums)):
+        #     if nums[i] == 1:
+        #         count += 1
+        #     else:
+        #         count -= 1
 
-            if count == 0:
-                maxlen = i + 1
-            if count in d:
-                maxlen = max(maxlen,i-d[count])
-            else:
-                d[count] = i
+        #     if count == 0:
+        #         maxlen = i + 1
+        #     if count in d:
+        #         maxlen = max(maxlen,i-d[count])
+        #     else:
+        #         d[count] = i
 
+        # return maxlen
 
 
 
@@ -67,7 +67,7 @@ class Solution(object):
         print(results, "results")
         print(max_length, "max length")
 
-        return maxlen
+        return max_length
 
         """
         Runtime: 772 ms, faster than 91.47% of Python online submissions for Contiguous Array.
